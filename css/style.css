@@ -1,0 +1,419 @@
+/* Custom Stylesheet */
+body, html {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  background:#ccc;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  transition: opacity 400ms;
+
+  font-family: Helvetica, "Hiragino Sans GB", "Microsoft YaHei",
+             "WenQuanYi Micro Hei", sans-serif;
+}
+
+body, .main, html {
+  display: block;
+  position: static;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+body {
+  display: none;
+}
+
+body .header{
+  color: #ecf0f1;
+  height: 180px;
+}
+
+.main p {
+  color: #ecf0f1;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.nav-top a {
+  color: #ecf0f1;
+}
+
+body .header h1, body .header p {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+body .nav-top span.right a {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+/* ALL DEMO */
+hr.fade-edge {
+    /*height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);*/
+
+    height: 1px;
+    border: 0;
+    background-image: -webkit-linear-gradient(left, rgba(100,100,100,0), rgba(100,100,100,0.75), rgba(100,100,100,0));
+    background-image:    -moz-linear-gradient(left, rgba(100,100,100,0), rgba(100,100,100,0.75), rgba(100,100,100,0));
+    background-image:     -ms-linear-gradient(left, rgba(100,100,100,0), rgba(100,100,100,0.75), rgba(100,100,100,0));
+    background-image:      -o-linear-gradient(left, rgba(100,100,100,0), rgba(100,100,100,0.75), rgba(100,100,100,0));
+}
+
+h1 {
+  color: #ecf0f1;
+}
+
+.main {
+  margin-top: -310px;
+}
+
+.menu, .header, .nav-top {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.header, .nav-top {
+  z-index: 10;
+}
+
+
+body.viewing-page-1 .header h1,
+body.viewing-page-1 .header p,
+body.viewing-page-1 .nav-top span.right a {
+  color: #404040;
+}
+
+/* other than viewing-page-1 */
+body.viewing-page-2 .header h1,
+body.viewing-page-3 .header h1,
+body.viewing-page-4 .header h1,
+body.viewing-page-5 .header h1,
+body.viewing-page-6 .header h1 {
+  font-size : 20px;
+}
+
+/* Page 1 */
+
+.main section.page1 {
+  background: url(../img/mont_vert_flat_h_plan.png) 100% 300px no-repeat #fff;
+  background-size: 600px;
+  background-attachment: fixed;
+
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.main section.page1 .page_container {
+  position: absolute;
+  margin-left: -500px;
+  left: 50%;
+  margin-bottom: 50px;
+  max-width: 600px;
+}
+
+.main section.page1 .page_container h1 {
+  letter-spacing: -1px;
+  font-weight: 100;
+  font-size: 50px;
+  color: #444;
+  padding: 10px;
+}
+
+.main section.page1 .page_container p{
+  line-height: 120%;
+  font-size: 18px;
+  font-weight: 100;
+  color: #999;
+  padding: 10px;
+}
+
+body.viewing-page-2 .header h1,
+body.viewing-page-2 .header p,
+body.viewing-page-2 .nav-top span.right a {
+  color: #333;
+}
+
+.main section.page2 {
+  background: url(../img/mont_vert_view_s.png) 800px bottom no-repeat rgb(230, 217, 200);
+}
+
+.main section.page2 .page_container {
+  position: absolute;
+  margin-left: -40%;
+  left: 50%;
+  top: 30%;
+  margin-bottom: 50px;
+  max-width: 445px;
+}
+
+.main section.page2 .page_container h1 {
+  letter-spacing: -1px;
+  font-weight: 100;
+  font-size: 50px;
+  color: black;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+
+.main section.page2 .page_container p {
+  line-height: 160%;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  color: #404040;
+}
+
+.main section.page3 {
+  background-color:  #16a085;
+  background: url("../img/mont_vert_birdview_s.jpg");
+  background-position: right top;
+  background-size: 100%;
+}
+
+.main section.page3 .page_container {
+  position: absolute;
+  margin-left: -325px;
+  left: 50%;
+  top: 30%;
+  margin-bottom: 50px;
+  max-width: 650px;
+  padding: 10px;
+}
+
+.main section.page3 .page_container h1 {
+  letter-spacing: -1px;
+  font-weight: 100;
+  font-size: 70px;
+}
+
+.main section.page3 .page_container h1,
+.main section.page3 .page_container p {
+  text-shadow: 0px 1px 1px #000;
+}
+
+.viewing-page-3 .onepage-pagination li a:before {
+  background: rgba(255,255,255,0.85);
+}
+
+.viewing-page-3 .onepage-pagination li a.active:before {
+  border: 1px solid white;
+}
+
+/* Page 4 */
+
+.main section.page4 {
+  background-color: #fff;
+}
+
+.main section.page4 .page_container {
+  top: 140px;
+}
+
+.main section.page4 .page_container h1 {
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 50px;
+  color: rgb(30, 30 ,30);
+}
+
+.main section.page4 .page_container p{
+  line-height: 160%;
+  font-size: 18px;
+  font-weight: 400;
+  color: #999;
+}
+
+img.feature-img {
+  border-radius: 10px;
+  border: solid 1px #666;
+  margin-right: 12px;
+
+  -webkit-transition: all 800ms ease-in-out;
+  -moz-transition: all 800ms ease-in-out;
+  -o-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out;
+}
+
+body.viewing-page-4 .header h1,
+body.viewing-page-4 .header p,
+body.viewing-page-4 .nav-top span.right a {
+  color: black;
+}
+
+/* Page 5 */
+
+.main section.page5 {
+  background: url(../img/purple-dusty.png) 120% 254px;
+  background-repeat: repeat;
+}
+
+.main section.page5::before { 
+  content:" ";
+  background: url(../img/parallax_stars.png) 120% 1000px;
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  left: 0;
+  position: fixed;
+
+  opacity: 0.05;
+
+  -webkit-transition: all 5000ms ease-in-out;
+  -moz-transition: all 5000ms ease-in-out;
+  -o-transition: all 5000ms ease-in-out;
+  transition: all 5000ms ease-in-out;
+}
+
+body.viewing-page-5 .main section.page5::before { 
+  opacity: 0.4;
+  background: url(../img/parallax_stars.png) 120% 0px;
+}
+
+.main section.page5 .page_container {
+  position: absolute;
+  margin-left: -340px;
+  left: 50%;
+  top: 40%;
+  margin-bottom: 50px;
+  max-width: 850px;
+}
+
+body.viewing-page-5 .header h1, body.viewing-page-5 .nav-top span.right a {
+  color: #fef;
+  text-shadow: 0px 1px 1px #000;
+}
+
+.viewing-page-5 .onepage-pagination li a:before {
+  background: rgba(255,255,255,0.85);
+}
+
+.viewing-page-5 .onepage-pagination li a.active:before {
+  border: 1px solid white;
+}
+
+/* References */
+
+body.viewing-page-6 .header h1,
+body.viewing-page-6 .header p,
+body.viewing-page-6 .nav-top span.right a {
+  color: #333;
+}
+
+.main section.page6 .page_container h1, h2 {
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: #333;
+}
+
+.main section.page6 .page_container {
+  position: absolute;
+  margin-left: -420px;
+  left: 50%;
+  top: 30%;
+  margin-bottom: 50px;
+  max-width: 850px;
+}
+
+/* General page settings */
+
+.main section .page_container {
+  position: absolute;
+  margin-left: -325px;
+  left: 50%;
+  top: 40%;
+  margin-bottom: 50px;
+  max-width: 650px;
+  min-width: 300px;
+}
+
+.main section .page_container h1 {
+  letter-spacing: -1px;
+  font-weight: 100;
+  /*font-size: 70px;*/
+}
+
+footer {
+  font-weight: 100;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 0px 1px 1px #fff;
+}
+
+/* Responsive to 480-screens */
+
+@media (max-width : 480px) {
+  #body .main section .page_container {
+    position: absolute;
+    margin-left: -160px;
+    left: 50%;
+    top: 24%;
+    margin-bottom: 50px;
+    width: 320px;
+  }
+
+  body .header h1 {
+   font-size : 20px;
+  }
+
+  body .header hr {
+   display: none;
+  }
+
+  body.viewing-page-1 .header hr{
+   display: block;
+  }
+
+  .main section.page1 {
+    background: url(../img/mont_vert_flat_h_plan.png) 100% bottom no-repeat #fff;
+    background-size: 500px;
+  }
+
+  .main section.page1 .page_container {
+    background: #fff;
+
+    -webkit-box-shadow: 0 8px 16px -6px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 8px 16px -6px rgba(0,0,0,0.3);
+    box-shadow: 0 8px 16px -6px rgba(0,0,0,0.3);
+  }
+
+  .main section .page_container h1 {
+    font-size: 2.0em !important;
+    padding: 0px 10px;
+  }
+
+  .main section .page_container p {
+    font-size: 1em !important;
+    padding: 0px 10px;
+  }
+
+  .main section.page3 .page_container h1 {
+    font-size: 40px;
+  }
+
+  img.feature-img {
+    display: none;
+    height: 0px;
+    border: 0px solid #000;
+  }
+
+  .main section.page5::before { 
+    opacity: 0.4; /* At least show something */
+  }
+
+}

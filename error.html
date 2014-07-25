@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERROR @ 嵐山 Mont Vert </title>
+    <meta name="為敢想而構想，為細緻而思量，為精雕而細琢。 Mont Vert開創先河，就是如此超前、空前。" />
+    <meta name="keywords" content="montvert, house, hong kong, flat, realestate, building " />
+    <meta name="author" content="-" />
+    <meta property="og:image" content="http://mont-vert.davidng.hk/img/og-thumb.png" />
+    <meta property="og:title"  content="Error page" />
+    <meta property="og:description"  content="Why are you sharing this page? Please go to http://mont-vert.davidng.hk/" />
+    <link rel="shortcut icon" id="favicon" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/error.css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="outdatedbrowser/outdatedBrowser.min.css">    
+    <link rel="stylesheet" type="text/css" href="css/elusive-webfont.css" />
+  </head>
+  <body class="error" id="body">
+    <div id="outdated">
+         <h6>Your browser is out-of-date!</h6>
+         <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update my browser now </a></p>
+         <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+    </div>
+
+      <h1 class="customicon-child"> HEY. ERROR!</h1>
+      <a href="/">GO HOME</a>
+      <footer> ↄ⃝  2014 Copyleft Reserved <br> 二次創作 未保留一切權利。</footer>
+  </body>
+  <script src="outdatedbrowser/outdatedBrowser.min.js"></script>
+  <script>
+      function addLoadEvent(func) {
+        var oldonload = window.onload;
+        if (typeof window.onload != 'function') {
+            window.onload = func;
+        } else {
+            window.onload = function() {
+                oldonload();
+                func();
+            }
+        }
+    }
+    //call plugin function after DOM ready
+    addLoadEvent(
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'transform'
+        })
+    );
+  </script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-53157951-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</html>
