@@ -180,7 +180,7 @@ body.viewing-page-2 .nav-top span.right a {
   background-color:  #16a085;
   background: url("../img/mont_vert_birdview_s.jpg");
   background-position: right top;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .main section.page3 .page_container {
